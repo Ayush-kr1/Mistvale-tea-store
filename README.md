@@ -90,3 +90,114 @@ Category Filter
 Sorting
      ↓
 Product Rendering
+
+
+## 📌 Project Overview
+
+Mistvale Tea Co. is a modern online tea-store interface designed to provide a simple and user-friendly shopping experience.
+
+The project focuses on:
+
+- Responsive UI/UX
+- Product browsing
+- Search, filtering and sorting
+- Shopping cart functionality
+- Product quick view
+- Coupon validation
+- Shipping calculation
+- Pincode delivery checking
+- FAQ accordion
+- Newsletter signup
+- Accessibility
+- SEO optimization
+- Optimized product imagery
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Google Fonts
+- LocalStorage
+- WebP images
+- SVG
+
+No jQuery or frontend framework is used.
+
+### Shopping Cart
+- Add products to cart
+- Increase/decrease quantity
+- Maximum 5 units per product
+- Stock-based quantity validation
+- Remove products
+- Total quantity cart count
+- Cart persistence using LocalStorage
+
+### Coupon
+
+The store supports:
+
+`WELCOME10`
+
+Rules:
+
+- 10% discount
+- Minimum eligible subtotal: ₹399
+- Maximum discount: ₹150
+- Case-insensitive coupon code
+- Gift products are excluded
+- Discount cannot be stacked
+
+### Delivery
+
+- Pincode serviceability check
+- Delivery estimate
+- Invalid pincode handling
+- Free shipping threshold
+- Shipping fee calculation
+
+### UX & Accessibility
+
+- Responsive desktop and mobile layout
+- Keyboard-friendly interactions
+- Visible focus states
+- ARIA attributes
+- Accessible FAQ accordion
+- Image alt text
+- Reduced-motion support
+- Toast/status messages
+
+### SEO
+
+The project includes:
+
+- SEO-friendly title
+- Meta description
+- Canonical URL
+- Open Graph metadata
+- Twitter metadata
+- Structured data
+- Product schema
+- FAQ schema
+- Organization/OnlineStore structured data
+
+## 📁 Project Structure
+
+```text
+mistvale-tea-store/
+│
+├── images/
+│   ├── logo.svg
+│   ├── hero-banner.webp
+│   ├── p101.webp
+│   ├── p102.webp
+│   ├── p103.webp
+│   ├── p104.webp
+│   ├── p105.webp
+│   ├── p106.webp
+│   ├── p107.webp
+│   └── p108.webp
+│
+├── index.html
+├── NOTES.md
+└── PROMPTS.md
