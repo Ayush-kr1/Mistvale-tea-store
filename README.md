@@ -5,6 +5,9 @@
 A responsive one-page online tea store created as part of the **MeroxIO Web Developer Interview Assessment**.
 
 ---
+## 🚀 Live Demo
+
+[View Live Demo](https://mistvale-tea-store-rho.vercel.app/)
 
 ## 📌 About the Project
 
